@@ -37,7 +37,7 @@
       <change afterPath="$PROJECT_DIR$/../calculator-3/calculator.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../casestudy/ControlProduct.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../checkDayByMonth/checkDayByMonth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/equation-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkAge.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../function1/calFunction.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../function1/checkPrime.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../function1/convertTemperture.html" afterDir="false" />
@@ -105,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607574572910</updated>
       <workItem from="1607574574034" duration="1685000" />
-      <workItem from="1607582257120" duration="3632000" />
+      <workItem from="1607582257120" duration="4735000" />
     </task>
     <servers />
   </component>
