@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Nhap so a :");
+    let b = +prompt("Nhap so b :");
+    let x;
+    let f = 0;
+    equation1();
+    function equation1() {
+        f = a.x + b;
+        if(a == 0 && b == 0) {
+            alert("Phuong trinh vo so nghiem !");
+        }else if (a == 0 && b != 0) {
+            alert("Phuong trinh vo nghiem !");
+        }else if (a != 0 && b != 0){
+            alert("Phuong trinh co nghiem la : "+"-"+b+"/"+a);
+        }
+    }
+</script>
+</body>
+</html>
