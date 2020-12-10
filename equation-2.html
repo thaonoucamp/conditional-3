@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt("Nhap so a");
+    let b = prompt("Nhap so b");
+    let c = prompt("Nhap so c");
+    let x;
+    let x1;
+    let x2;
+    let delta;
+    let f = 0;
+    equation2();
+    function equation2() {
+        f = a*x*x + b*x + c;
+        delta = b*b - 4*a*c;
+        if(delta < 0) {
+            alert("Phuong trinh vo nghiem !");
+        }else if (delta == 0) {
+            x = -b/2*a;
+            alert("phuong trinh co nghiem la : "+x);
+        }else if (delta > 0) {
+            x1 = (-b + Math.sqrt(delta))/(2*a);
+            alert("phuong trinh co nghiem la : "+ x1);
+            x2 = (-b + Math.sqrt(delta))/(2*a);
+            alert("phuong trinh co nghiem la : "+ x2);
+        }
+    }
+</script>
+</body>
+</html>
